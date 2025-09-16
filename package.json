@@ -1,0 +1,22 @@
+{
+  "name": "cse341_contactsproject",
+  "version": "1.0.0",
+  "description": "Contact Project for CSE 341",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hollypie/cse341_contactsproject.git"
+  },
+  "author": "Holly Briggs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hollypie/cse341_contactsproject/issues"
+  },
+  "homepage": "https://github.com/Hollypie/cse341_contactsproject#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
