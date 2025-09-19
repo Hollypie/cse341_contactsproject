@@ -2,16 +2,16 @@
 GET https://project1-c5z2.onrender.com/contacts
 
 ### Create a new contact
-# POST https://project1-c5z2.onrender.com/contacts
-# Content-Type: application/json
+POST https://project1-c5z2.onrender.com/contacts
+Content-Type: application/json
 
-# {
-#   "firstName": "Ollie",
-#   "lastName": "Briggs",
-#   "email": "ollie@example.com",
-#   "favoriteColor": "blue",
-#   "birthday": "2017-06-06"
-# }
+{
+  "firstName": "Ollie",
+  "lastName": "Briggs",
+  "email": "ollie@example.com",
+  "favoriteColor": "blue",
+  "birthday": "2017-06-06"
+}
 
 
 ### Get a single contact
