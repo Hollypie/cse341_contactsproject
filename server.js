@@ -5,6 +5,7 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
+// Correct chaining — no comma
 app.use(bodyParser.json())
    .use('/', require('./routes'));
 
