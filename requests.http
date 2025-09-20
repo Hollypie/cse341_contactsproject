@@ -6,23 +6,11 @@ POST https://project1-c5z2.onrender.com/contacts
 Content-Type: application/json
 
 {
-  "firstName": "Lissie",
-  "lastName": "Briggs",
-  "email": "Lissie@example.com",
-  "favoriteColor": "pink",
-  "birthday": "2014-03-13"
-}
-
-### Update a Contact
-PUT https://project1-c5z2.onrender.com/contacts/68cdc5b2cecaad5a963236ec HTTP/1.1
-Content-Type: application/json
-
-{
-  "firstName": "Lissie",
-  "lastName": "Briggs",
-  "email": "lissie@example.com",
-  "favoriteColor": "red",
-  "birthday": "2014-03-13"
+  "firstName": "Candy",
+  "lastName": "Kinser",
+  "email": "candy@example.com",
+  "favoriteColor": "beige",
+  "birthday": "1955-02-12"
 }
 
 ### Get a single contact
@@ -34,5 +22,17 @@ GET https://project1-c5z2.onrender.com/contacts/68c99cac0bb3731ad6e0fc0c
 ### Get a single contact
 GET https://project1-c5z2.onrender.com/contacts/68c99ccd0bb3731ad6e0fc0e
 
+### Update a Contact
+PUT https://project1-c5z2.onrender.com/contacts/68cdc39bcecaad5a963236eb HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Leonard",
+  "lastName": "Briggs",
+  "email": "leo@example.com",
+  "favoriteColor": "forest green",
+  "birthday": "2016-30-01"
+}
+
 ### Delete a Contact
-DELETE https://project1-c5z2.onrender.com/contacts/68cdc175cecaad5a963236ea HTTP/1.1
+DELETE https://project1-c5z2.onrender.com/contacts/68cde6fe8c29a411a848ff96 HTTP/1.1
