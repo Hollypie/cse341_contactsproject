@@ -5,10 +5,10 @@
     "description": "CSE 341 Project 1 assignment",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "project1-c5z2.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
